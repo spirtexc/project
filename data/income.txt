@@ -1,0 +1,26 @@
+[
+    {
+        "inID": "B1",
+        "patient": "U6",
+        "amount": 55.00,
+        "status": "paid"
+    },
+    {
+        "inID": "B2",
+        "patient": "U7",
+        "amount": 120.00,
+        "status": "unpaid"
+    },
+    {
+        "inID": "B3",
+        "patient": "U10",
+        "amount": 80.00,
+        "status": "paid"
+    },
+    {
+        "inID": "B4",
+        "patient": "U8",
+        "amount": 150.00,
+        "status": "unpaid"
+    }
+]
