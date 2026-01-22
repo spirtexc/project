@@ -1,6 +1,7 @@
 [
     {
         "aptID": "A1",
+<<<<<<< HEAD
         "patientID": "P7",
         "doctorID": "D1",
         "date": "2026-09-19",
@@ -36,3 +37,36 @@
         "note": "This patient is so sick."
     }
 ]
+=======
+        "patient": "U6",
+        "doctor": "U1",
+        "date": "2025-03-01",
+        "time": "09:30",
+        "status": "confirmed"
+    },
+    {
+        "aptID": "A2",
+        "patient": "U7",
+        "doctor": "U1",
+        "date": "2025-03-03",
+        "time": "11:00",
+        "status": "pending"
+    },
+    {
+        "aptID": "A3",
+        "patient": "U8",
+        "doctor": "U2",
+        "date": "2025-03-05",
+        "time": "14:00",
+        "status": "pending"
+    },
+    {
+        "aptID": "A4",
+        "patient": "U10",
+        "doctor": "U1",
+        "date": "2025-03-06",
+        "time": "10:00",
+        "status": "confirmed"
+    }
+]
+>>>>>>> f3a60dd9ce629b5da2f106cdfcb3dc01ec8bd069

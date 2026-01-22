@@ -1,11 +1,16 @@
 # main.py
 import utils
+<<<<<<< HEAD
 import accountant
 import receptionist
 import doctor
 import pharmacist
 import os
 import admin
+=======
+import admin
+import os
+>>>>>>> f3a60dd9ce629b5da2f106cdfcb3dc01ec8bd069
 
 ##login
 ##current file path
@@ -16,12 +21,16 @@ current_user_record = {}
 
 #login function
 def login():
+<<<<<<< HEAD
     """Authenticate user with max 3 attempts. Returns True/False."""
     records = utils.read_records(user_data)  # JSON returns list only
 
     if not records:
         print("User data file is empty or missing.")
         return False
+=======
+    records = utils.read_records(user_data)
+>>>>>>> f3a60dd9ce629b5da2f106cdfcb3dc01ec8bd069
 
     for attempt in range(3):
         if attempt > 0:
@@ -30,6 +39,7 @@ def login():
         username = input("Enter username: ").strip()
         password = input("Enter password: ").strip()
 
+<<<<<<< HEAD
         # Find matching user (username OR email)
         user = next(
             (r for r in records
@@ -41,6 +51,17 @@ def login():
         if user and user["password"] == password:
             global current_user_record
             current_user_record = user
+=======
+        user = next(
+            (u for u in records
+             if u.get("username") == username and u.get("password") == password),
+            None
+        )
+
+        if user:
+            global current_user
+            current_user = {"userID": user["userID"]}
+>>>>>>> f3a60dd9ce629b5da2f106cdfcb3dc01ec8bd069
             print("Login successful!")
             return True
 
@@ -56,6 +77,7 @@ def main_menu():
     print("HealthPlus Management System")
     login_success = login()
     if login_success:
+<<<<<<< HEAD
         role = current_user_record.get("role", "").lower()
 
         if role == "administrator":
@@ -68,6 +90,15 @@ def main_menu():
             accountant.accountant_menu()
         elif role == "pharmacist":
             pharmacist.pharmacist_menu()
+=======
+        user_id = current_user["userID"]
+        user = utils.find_record(user_data, "and", {"userID": user_id})[0]
+        role = user.get("role", "").lower()
+
+
+        if role == "administrator":
+            admin.admin_menu()
+>>>>>>> f3a60dd9ce629b5da2f106cdfcb3dc01ec8bd069
         else:
             print("You do not have permission to access the system.")
 

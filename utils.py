@@ -1,14 +1,25 @@
 # utils.py
 import os
+<<<<<<< HEAD
 import json
+=======
+# --- Read all records ---
+import json
+import os
+>>>>>>> f3a60dd9ce629b5da2f106cdfcb3dc01ec8bd069
 
 # ------------------------------
 # Read all records from JSON file
 # ------------------------------
 def read_records(source, headers=None):
     if not os.path.exists(source):
+<<<<<<< HEAD
         return [] 
     #read records from JSON file
+=======
+        return []  # File not created yet
+
+>>>>>>> f3a60dd9ce629b5da2f106cdfcb3dc01ec8bd069
     with open(source, "r") as file:
         try:
             records = json.load(file)
@@ -22,10 +33,24 @@ def read_records(source, headers=None):
     result = []
     for record in records:
         result.append({h: record.get(h, "") for h in headers})
+<<<<<<< HEAD
     
     return result
 
 
+=======
+
+    return result
+
+# ------------------------------
+# Helper: find ID key dynamically
+# ------------------------------
+def _get_id_key(record):
+    for key in record:
+        if key.lower().endswith("id"):
+            return key
+    return None
+>>>>>>> f3a60dd9ce629b5da2f106cdfcb3dc01ec8bd069
 
 # ------------------------------
 # Find record by any field
@@ -54,6 +79,7 @@ def find_record(source, mode, filters):
         else:
             raise ValueError("Mode must be 'and' or 'or'.")
     return result
+<<<<<<< HEAD
 # ------------------------------
 # saperate ID into prefix and number
 # ------------------------------
@@ -97,11 +123,14 @@ def next_id(source):
 
     return id_key, f"{prefix}{max_num + 1}"
 
+=======
+>>>>>>> f3a60dd9ce629b5da2f106cdfcb3dc01ec8bd069
 
 
 # ------------------------------
 # Add a new record
 # ------------------------------
+<<<<<<< HEAD
 def add_record(source, value):
     records = read_records(source)
     # Generate new ID
@@ -111,13 +140,25 @@ def add_record(source, value):
     # Append new record
     records.append(value)
 
+=======
+def add_record(source, values):
+    records = read_records(source)
+
+    # Add new record
+    records.append(values)
+
+    # Save back to JSON file
+>>>>>>> f3a60dd9ce629b5da2f106cdfcb3dc01ec8bd069
     with open(source, "w") as file:
         json.dump(records, file, indent=4)
 
     print("Record added successfully!")
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> f3a60dd9ce629b5da2f106cdfcb3dc01ec8bd069
 # ------------------------------
 # Update a record by ID
 # ------------------------------
@@ -126,18 +167,31 @@ def update_record(source, record_id, updates):
     updated = False
 
     for record in records:
+<<<<<<< HEAD
         id_key = next((k for k in record if k.lower().endswith("id")), None)
         if id_key and record.get(id_key) == record_id:
             record.update(updates)
             updated = True
             break
+=======
+        if record["id"] == record_id:
+            for k, v in updates.items():
+                if k in record:
+                    record[k] = v
+            updated = True
+            break
+
+>>>>>>> f3a60dd9ce629b5da2f106cdfcb3dc01ec8bd069
     if updated:
         with open(source, "w") as file:
             json.dump(records, file, indent=4)
         print("Record updated successfully!")
     else:
         print("Record not found!")
+<<<<<<< HEAD
         
+=======
+>>>>>>> f3a60dd9ce629b5da2f106cdfcb3dc01ec8bd069
 
 
 # ------------------------------
@@ -150,7 +204,11 @@ def delete_record(source, record_id):
     deleted = False
 
     for record in records:
+<<<<<<< HEAD
         id_key = next((k for k in record if k.lower().endswith("id")), None)
+=======
+        id_key = _get_id_key(record)
+>>>>>>> f3a60dd9ce629b5da2f106cdfcb3dc01ec8bd069
         if id_key and record.get(id_key) == record_id:
             deleted = True
             continue

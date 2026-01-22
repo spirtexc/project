@@ -1,6 +1,10 @@
 [
     {
+<<<<<<< HEAD
         "userID": "D1",
+=======
+        "userID": "U10",
+>>>>>>> f3a60dd9ce629b5da2f106cdfcb3dc01ec8bd069
         "username": "dr_ali",
         "password": "pass1",
         "age": "40",
@@ -10,8 +14,13 @@
     },
     {
         "userID": "U2",
+<<<<<<< HEAD
         "username": "pharma",
         "password": "pharma123",
+=======
+        "username": "pharma_siti",
+        "password": "pass2",
+>>>>>>> f3a60dd9ce629b5da2f106cdfcb3dc01ec8bd069
         "age": "32",
         "role": "pharmacist",
         "status": "active",
@@ -28,8 +37,13 @@
     },
     {
         "userID": "U4",
+<<<<<<< HEAD
         "username": "MHD",
         "password": "1234",
+=======
+        "username": "recep_lisa",
+        "password": "pass4",
+>>>>>>> f3a60dd9ce629b5da2f106cdfcb3dc01ec8bd069
         "age": "29",
         "role": "receptionist",
         "status": "active",
@@ -45,6 +59,7 @@
         "phone": "012-34256389"
     },
     {
+<<<<<<< HEAD
         "username": "chen",
         "password": "1",
         "age": "12",
@@ -88,5 +103,59 @@
         "role": "doctor",
         "status": "active",
         "phone": "012-9511283"
+=======
+        "userID": "U6",
+        "username": "patient_john",
+        "password": "p1",
+        "age": "30",
+        "role": "patient",
+        "status": "active",
+        "phone": "012-3456789"
+    },
+    {
+        "userID": "U7",
+        "username": "patient_mary",
+        "password": "p2",
+        "age": "27",
+        "role": "patient",
+        "status": "active",
+        "phone": "017-9988776"
+    },
+    {
+        "userID": "U8",
+        "username": "patient_ahmad",
+        "password": "p3",
+        "age": "34",
+        "role": "patient",
+        "status": "active",
+        "phone": "016-5544332"
+    },
+    {
+        "userID": "U9",
+        "username": "patient_sarah",
+        "password": "p4",
+        "age": "23",
+        "role": "patient",
+        "status": "active",
+        "phone": "013-7788992"
+    },
+    {
+        "userID": "U10",
+        "username": "patient_lee",
+        "password": "p5",
+        "age": "41",
+        "role": "patient",
+        "status": "active",
+        "phone": "011-6677883"
+    },
+    {
+        "username": "chen",
+        "password": "1",
+        "age": "12",
+        "role": "doctor",
+        "status": "active",
+        "userID": "U11",
+        "phone": "012-3556789"
+>>>>>>> f3a60dd9ce629b5da2f106cdfcb3dc01ec8bd069
     }
 ]
