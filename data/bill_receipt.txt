@@ -1,0 +1,206 @@
+
+============================================================
+=== BILL RECEIPT ===
+Bill ID        : BILLU620260106233613
+Patient ID     : U6
+Appointment ID : A1
+Doctor ID      : D1
+Date           : 2025-12-19
+
+--- Bill Breakdown ---
+Consultation Fee : RM 30.00
+Medicine Fee     : RM 3.50
+Total Amount     : RM 33.50
+
+Status : Paid
+Recorded On : 2026-01-07 00:05:39
+============================================================
+
+============================================================
+=== BILL RECEIPT ===
+Bill ID        : BILLU620260106233614
+Patient ID     : U6
+Appointment ID : A2
+Doctor ID      : D2
+Date           : 2025-10-05
+
+--- Bill Breakdown ---
+Consultation Fee : RM 40.00
+Medicine Fee     : RM 12.40
+Total Amount     : RM 52.40
+
+Status : Paid
+Recorded On : 2026-01-07 00:06:11
+============================================================
+
+============================================================
+=== BILL RECEIPT ===
+Bill ID        : BILLU620260106233615
+Patient ID     : U6
+Appointment ID : A1
+Doctor ID      : D1
+Date           : 2025-12-19
+
+--- Bill Breakdown ---
+Consultation Fee : RM 30.00
+
+--- Prescribed Medicines ---
+  Paracetamol 500mg (ID: M1) : RM 3.50
+
+Medicine Fee (Total) : RM 3.50
+Total Amount         : RM 33.50
+
+Status : Unpaid
+Recorded On : 2026-01-07 00:12:11
+============================================================
+
+============================================================
+=== BILL RECEIPT ===
+Bill ID        : BILLU620260106233616
+Patient ID     : U6
+Appointment ID : A2
+Doctor ID      : D2
+Date           : 2025-10-05
+
+--- Bill Breakdown ---
+Consultation Fee : RM 30.00
+
+--- Prescribed Medicines ---
+  Vitamin C (ID: M4) : RM 5.00
+  Antihistamine (ID: M5) : RM 7.40
+
+Medicine Fee (Total) : RM 12.40
+Total Amount         : RM 42.40
+
+Status : Unpaid
+Recorded On : 2026-01-07 00:14:33
+============================================================
+
+============================================================
+=== BILL RECEIPT ===
+Bill ID        : BILLU620260106233617
+Patient ID     : U6
+Appointment ID : A2
+Doctor ID      : D2
+Date           : 2025-10-05
+
+--- Bill Breakdown ---
+Consultation Fee : RM 30.00
+
+--- Prescribed Medicines ---
+  Vitamin C (ID: M4) : RM 5.00
+  Antihistamine (ID: M5) : RM 7.40
+
+Medicine Fee (Total) : RM 12.40
+Total Amount         : RM 42.40
+
+Status : Unpaid
+Recorded On : 2026-01-07 00:16:09
+============================================================
+
+============================================================
+=== BILL RECEIPT ===
+Bill ID        : BILLU620260106233618
+Patient ID     : U6
+Appointment ID : A1
+Doctor ID      : D1
+Date           : 2025-12-19
+
+--- Bill Breakdown ---
+Consultation Fee : RM 20.00
+
+--- Prescribed Medicines ---
+  Paracetamol 500mg (ID: M1) : RM 3.50
+
+Medicine Fee (Total) : RM 3.50
+Total Amount         : RM 23.50
+
+Status : Unpaid
+Recorded On : 2026-01-07 00:18:04
+============================================================
+
+============================================================
+=== BILL RECEIPT ===
+Bill ID        : BILLU620260106233619
+Patient ID     : U6
+Appointment ID : A1
+Doctor ID      : D1
+Date           : 2025-12-19
+
+--- Bill Breakdown ---
+Consultation Fee : RM 20.00
+
+--- Prescribed Medicines ---
+  Paracetamol 500mg (ID: M1) : RM 3.50
+
+Medicine Fee (Total) : RM 3.50
+Total Amount         : RM 23.50
+
+Status : Paid
+Recorded On : 2026-01-07 00:24:11
+============================================================
+
+============================================================
+=== BILL RECEIPT ===
+Bill ID        : BILLU620260106233620
+Patient ID     : U6
+Appointment ID : A3
+Doctor ID      : D3
+Date           : 2026-01-04
+
+--- Bill Breakdown ---
+Consultation Fee : RM 30.00
+
+--- Prescribed Medicines ---
+  Amoxicillin 250mg (ID: M2) : RM 12.00
+
+Medicine Fee (Total) : RM 12.00
+Total Amount         : RM 42.00
+
+Status : Unpaid
+Recorded On : 2026-01-07 00:24:50
+============================================================
+
+============================================================
+=== BILL RECEIPT ===
+Bill ID        : BILL-P7-20260107154516
+Patient ID     : P7
+Appointment ID : A1
+Doctor ID      : D1
+Date           : 2026-09-19
+
+--- Bill Breakdown ---
+Consultation Fee : RM 30.00
+
+--- Prescribed Medicines ---
+  Vitamin C (ID: M1) : RM 5.00
+  vit a (ID: M3) : RM 2.00
+
+Medicine Fee (Total) : RM 7.00
+Total Amount         : RM 37.00
+
+Status : Paid
+Recorded On : 2026-01-07 15:45:16
+============================================================
+
+============================================================
+=== BILL RECEIPT ===
+Bill ID        : None
+Patient ID     : P7
+Appointment ID : A1
+Doctor ID      : D1
+Date           : 2026-09-19
+
+--- Bill Breakdown ---
+Consultation Fee : RM 30.00
+
+--- Prescribed Medicines ---
+  Vitamin C (ID: M1) : RM 5.00
+  vit a (ID: M3) : RM 2.00
+
+Medicine Fee (Total) : RM 7.00
+Total Amount         : RM 37.00
+
+Status : Paid
+Recorded On : 2026-01-07 16:19:59
+============================================================

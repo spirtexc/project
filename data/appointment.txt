@@ -1,0 +1,38 @@
+[
+    {
+        "aptID": "A1",
+        "patientID": "P7",
+        "doctorID": "D1",
+        "date": "2026-09-19",
+        "time": "9:00",
+        "status": "paid",
+        "medicine": "M1, M3, M4",
+        "note": "This patient is so stupid, i dont like how he act. please obliterate him"
+    },
+    {
+        "aptID": "A2",
+        "patientID": "P13",
+        "doctorID": "D1",
+        "date": "2026-01-13",
+        "time": "9:00",
+        "status": "Cancelled"
+    },
+    {
+        "aptID": "A3",
+        "patientID": "P13",
+        "doctorID": "D1",
+        "date": "2026-01-12",
+        "time": "9:00",
+        "status": "Booked"
+    },
+    {
+        "aptID": "A4",
+        "patientID": "P13",
+        "doctorID": "D1",
+        "date": "2026-01-11",
+        "time": "9:00",
+        "status": "Completed",
+        "medicine": "M1, M3, M2",
+        "note": "This patient is so sick."
+    }
+]

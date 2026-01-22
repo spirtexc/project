@@ -1,0 +1,92 @@
+[
+    {
+        "userID": "D1",
+        "username": "dr_ali",
+        "password": "pass1",
+        "age": "40",
+        "role": "doctor",
+        "status": "active",
+        "phone": "012-34562229"
+    },
+    {
+        "userID": "U2",
+        "username": "pharma",
+        "password": "pharma123",
+        "age": "32",
+        "role": "pharmacist",
+        "status": "active",
+        "phone": "012-02000089"
+    },
+    {
+        "userID": "U3",
+        "username": "cwz",
+        "password": "123",
+        "age": "45",
+        "role": "administrator",
+        "status": "active",
+        "phone": "012-3356789"
+    },
+    {
+        "userID": "U4",
+        "username": "MHD",
+        "password": "1234",
+        "age": "29",
+        "role": "receptionist",
+        "status": "active",
+        "phone": "012-44567844"
+    },
+    {
+        "userID": "U5",
+        "username": "accounts_lim",
+        "password": "pass5",
+        "age": "37",
+        "role": "accounts personnel",
+        "status": "active",
+        "phone": "012-34256389"
+    },
+    {
+        "username": "chen",
+        "password": "1",
+        "age": "12",
+        "role": "doctor",
+        "status": "active",
+        "userID": "D2",
+        "phone": "012-3556789"
+    },
+    {
+        "userID": "U12",
+        "username": "www",
+        "password": "www",
+        "age": "23",
+        "role": "administrator",
+        "status": "active",
+        "phone": "012-9511284"
+    },
+    {
+        "userID": "D3",
+        "username": "wwe",
+        "password": "wwe",
+        "age": "12",
+        "role": "doctor",
+        "status": "active",
+        "phone": "12"
+    },
+    {
+        "userID": "U14",
+        "username": "admin",
+        "password": "admin123",
+        "age": "80",
+        "role": "administrator",
+        "status": "active",
+        "phone": "012-12131223"
+    },
+    {
+        "userID": "U15",
+        "username": "wen",
+        "password": "zong",
+        "age": "80",
+        "role": "doctor",
+        "status": "active",
+        "phone": "012-9511283"
+    }
+]

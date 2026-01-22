@@ -1,0 +1,33 @@
+[
+    {
+        "inID": "B1",
+        "appointmentID": "A3",
+        "userID": "P6",
+        "amount": 55.0,
+        "medID_list": [
+            "M1",
+            "M2"
+        ],
+        "status": "paid"
+    },
+    {
+        "inID": "B3",
+        "appointmentID": "A2",
+        "userID": "P10",
+        "amount": 80.0,
+        "medID_list": [
+            "M1",
+            "M2"
+        ],
+        "status": "paid"
+    },
+    {
+        "patient": "P7",
+        "appointmentID": "A1",
+        "consultationFee": 30.0,
+        "medicineFee": 7.0,
+        "amount": 37.0,
+        "status": "paid",
+        "inID": "B6"
+    }
+]

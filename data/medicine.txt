@@ -1,0 +1,20 @@
+[
+    {
+        "medID": "M1",
+        "name": "Vitamin C",
+        "stock": 50,
+        "price": 5.0
+    },
+    {
+        "medID": "M2",
+        "name": "Vitamin D",
+        "stock": 30,
+        "price": 10.0
+    },
+    {
+        "medID": "M3",
+        "name": "vit a",
+        "stock": 5,
+        "price": 2.0
+    }
+]

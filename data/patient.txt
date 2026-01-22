@@ -1,0 +1,104 @@
+[
+    {
+        "patientID": "P1",
+        "name": "Ali Hassan",
+        "dob": "2000-05-10",
+        "age": 25,
+        "phone": "0501234567",
+        "status": "active"
+    },
+    {
+        "patientID": "P2",
+        "name": "Mohamed omer",
+        "dob": "2007-11-07",
+        "age": 18,
+        "phone": "0547649130",
+        "status": "active"
+    },
+    {
+        "patientID": "P3",
+        "name": "Jehuda Daniel",
+        "dob": "2025-03-12",
+        "age": 0,
+        "phone": "0551998286",
+        "status": "active"
+    },
+    {
+        "patientID": "P4",
+        "name": "omer rahama",
+        "dob": "1999-02-12",
+        "age": 26,
+        "phone": "0765434525",
+        "status": "active"
+    },
+    {
+        "patientID": "P5",
+        "name": "MAZIN OMER",
+        "dob": "2011-07-03",
+        "age": 14,
+        "phone": "343063524",
+        "status": "active"
+    },
+    {
+        "patientID": "P6",
+        "name": "JOHN SMITH",
+        "dob": "2007-02-12",
+        "age": 18,
+        "phone": "12341435143",
+        "status": "active"
+    },
+    {
+        "patientID": "P7",
+        "name": "samuel",
+        "dob": "2008-02-12",
+        "age": 17,
+        "phone": "035825231",
+        "status": "active"
+    },
+    {
+        "patientID": "P8",
+        "name": "Ok Aksan",
+        "dob": "2009-02-12",
+        "age": 16,
+        "phone": "009889123123",
+        "status": "active"
+    },
+    {
+        "patientID": "P9",
+        "name": "FARHAD",
+        "dob": "2000-11-07",
+        "age": 25,
+        "phone": "03249345",
+        "status": "active"
+    },
+    {
+        "patientID": "P10",
+        "name": "MOHMED",
+        "dob": "2007-07-07",
+        "age": 18,
+        "phone": "09345345",
+        "status": "active"
+    },
+    {
+        "patientID": "P11",
+        "name": "farhad",
+        "dob": "2000-02-20",
+        "phone": "0547649120"
+    },
+    {
+        "patientID": "P12",
+        "name": "OSMAN",
+        "dob": "2007-10-07",
+        "age": 18,
+        "phone": "0987654374",
+        "status": "active"
+    },
+    {
+        "patientID": "P13",
+        "name": "Admin",
+        "dob": "2000-01-12",
+        "age": 25,
+        "phone": "098767875785687",
+        "status": "active"
+    }
+]
